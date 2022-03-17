@@ -132,6 +132,10 @@ a {
 .ul__index--item {
     padding-top: 1rem;
 }
+.text-center {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
 
 /* media queries */
 
