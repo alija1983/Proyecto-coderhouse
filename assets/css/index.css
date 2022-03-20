@@ -148,6 +148,13 @@ a {
     font-size: 1.4em;
     padding: 2rem;
 }
+.main__about--h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.nav__ventas {
+    padding-top: 2rem;
+}
 /* media queries */
 
 @media screen and (max-width: 470px) {
