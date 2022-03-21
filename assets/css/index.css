@@ -6,7 +6,7 @@
 /* Variables */
 
 :root {
-    --color_first: black;
+    --color_first: rgba(0, 0, 0, 0.527);
     --color_second: white;
     --color_third: rgb(255, 51, 0);
     --font_first: Ubuntu;
@@ -38,7 +38,8 @@ html {
 
 body {
     color: var(--color_second);
-    background-color: var(--color_first);
+    background-image: url(../image/wallpaperbetter.com_1280x800.jpg);
+    background-size: cover;
     min-height: 100vh;
     display: grid;
     grid-template-columns: 15% auto 15%;
@@ -154,6 +155,23 @@ a {
 }
 .nav__ventas {
     padding-top: 2rem;
+}
+.fs-1 {
+    background-color: var(--color_first);
+}
+.fs-2 {
+    background-color: var(--color_first);
+}
+.fs-3 {
+    background-color: var(--color_first);
+}
+.fs-4 {
+    background-color: var(--color_first);
+}
+
+.ul__index {
+    background-color: var(--color_first);
+ 
 }
 /* media queries */
 
