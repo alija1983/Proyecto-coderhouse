@@ -1,0 +1,186 @@
+
+/* Codigo con bootstrap */
+
+
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+
+/* Variables */
+
+:root {
+    --color_first: rgba(0, 0, 0, 0.527);
+    --color_second: white;
+    --color_third: rgb(255, 51, 0);
+    --font_first: Ubuntu;
+    --font_second: verdana;
+}
+
+/* Normalize */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Globales */
+
+html {
+    font-size: 62.5%;
+    /* ahora vale 10px */
+    font-family: var(--font_first);
+    color: var(--color_second);
+}
+
+body {
+    color: var(--color_second);
+    background-image: url(../image/wallpaperbetter.com_1280x800.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 15vh auto 15vh;
+    row-gap: 1rem;
+}
+
+header {
+    grid-column: 1 / 4;
+    background-image: linear-gradient(to left, rgba(255, 145, 0, 0.767), rgb(255, 60, 0));
+}
+
+.logo__size {
+    max-height: 13vh;
+    min-height: 10vh;
+    padding: .5rem;
+}
+
+main {
+    grid-column: 2 / 3;
+    grid-row: 2 /3;
+}
+
+footer {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    background-image: linear-gradient(to left, rgba(255, 145, 0, 0.767), rgb(255, 60, 0));
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: var(--color_second)
+}
+
+.title__h2 {
+    font-size: 2.2em;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.title__h2--text {
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.title__h3--text {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1rem 0;
+}
+/* Helpers */
+
+.flex_row {
+    display: flex;
+}
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+.inline_block {
+    display: inline-block;
+}
+
+.header__nav {
+    align-items: center;
+    justify-content: space-between;
+}
+.menu__link {
+    padding: 0 1rem;
+}
+
+.footer__item {
+    text-align: center;
+}
+
+.main__home--section {
+    padding-top: 3rem;
+    gap: 2rem;
+}
+
+.ul__index {
+    padding-top: 2rem;
+}
+
+.ul__index--item {
+    font-size: 1.6em;
+    padding-top: 1rem;
+}
+.text-center {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.nav_ventas--description {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 2rem;
+}
+.nav_servicio--description {
+    text-align: center;
+    font-size: 1.4em;
+    padding: 2rem;
+}
+.main__about--h2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.nav__ventas {
+    padding-top: 2rem;
+}
+.fs-1 {
+    background-color: var(--color_first);
+}
+.fs-2 {
+    background-color: var(--color_first);
+}
+.fs-3 {
+    background-color: var(--color_first);
+}
+.fs-4 {
+    background-color: var(--color_first);
+}
+
+.ul__index {
+    background-color: var(--color_first);
+ 
+}
+/* media queries */
+
+@media screen and (max-width: 470px) {
+    .logo__size {
+        width: 109px;
+    }
+}

@@ -1,0 +1,34 @@
+header {
+    grid-column: 1 / 4;
+    background-image: $back_header_footer;
+  
+}
+.header__nav {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__link {
+    padding: 0 1rem;
+    color: $color_second;
+
+    &:hover {
+        color: $color_first;
+        font-size: 1.2em;
+        border-bottom: $color_first solid 1px;
+    }
+}
+
+.logo__size {
+    max-height: 13vh;
+    min-height: 10vh;
+    padding: .5rem;
+}
+
+/* media queries */
+
+@media screen and (max-width: 470px) {
+    .logo__size {
+        width: 109px;
+    }
+}

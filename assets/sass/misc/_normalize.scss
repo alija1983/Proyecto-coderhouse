@@ -1,0 +1,47 @@
+/* Imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* Normalize */
+
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Globales */
+
+html {
+    font-size: 62.5%;
+    /* ahora vale 10px */
+    font-family: $font_first;
+    color: $color_second;
+}
+
+body {
+    color: $color_second;
+    background-image: url(../image/wallpaperbetter.com_1280x800.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    grid-template-rows: 15vh auto 15vh;
+    row-gap: 1rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: $color_second;
+}

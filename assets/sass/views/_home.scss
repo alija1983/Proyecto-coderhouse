@@ -1,0 +1,26 @@
+
+
+main {
+    grid-column: 2 / 3;
+    grid-row: 2 /3;
+
+    &__home--section {
+        padding-top: 3rem;
+        gap: 2rem;
+    }
+}
+
+.ul__index {
+    padding-top: 2rem;
+    background-color: $color_first;
+
+    &--item--item {
+        font-size: 1.6em;
+        padding-top: 1rem;
+    }
+}
+
+.text-center {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}

@@ -1,0 +1,52 @@
+/* Helpers */
+
+.flex_row {
+    display: flex;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.inline_block {
+    display: inline-block;
+}
+
+.fs {
+    &-1 {
+        background-color: $color_first ;
+    }
+
+    &-2 {
+        background-color: $color_first ;
+    }
+    
+    &-3 {
+        background-color: $color_first ;
+    }
+    
+    &-4 {
+        background-color: $color_first ;
+    }
+
+}
+
+
+
+.title__h2 {
+    font-size: 2.2em;
+    text-align: center;
+    padding: 2rem 0;
+
+    &--text {
+        font-size: 1.6em;
+        text-align: center;
+    }
+}
+
+.title__h3--text {
+    font-size: 1.8em;
+    text-align: center;
+    padding: 1rem 0;
+}
