@@ -1,4 +1,3 @@
-
 .nav__ventas {
     padding-top: 2rem;
 
@@ -6,6 +5,32 @@
         text-align: center;
         font-size: 1.4em;
         padding: 2rem;
+        color: $color_second;
+        font-weight: bold;
+        background-color: $color_first;
+
+        &:hover {
+            background-color: $color_second;
+        }
+    }
+
+    &--img {
+
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        box-shadow: 0px 0px 15px 15px #ec731e;
+        -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+
+        &:hover {
+            filter: blur(5px);
+        }
+
     }
 }
 
+body {
+    color: $color_second;
+    font-weight: bold;
+}

@@ -12,27 +12,29 @@
 .inline_block {
     display: inline-block;
 }
-
+/*
 .fs {
     &-1 {
-        background-color: $color_first ;
+        background-image: $back_header_footer;
     }
 
     &-2 {
-        background-color: $color_first ;
+        background-image: $back_header_footer;
     }
     
     &-3 {
-        background-color: $color_first ;
+        background-image: $back_header_footer;
     }
     
     &-4 {
-        background-color: $color_first ;
+        background-image: $back_header_footer;
     }
 
 }
-
-
+*/
+ .fs-2 {
+    background-color: $color_first;
+ }
 
 .title__h2 {
     font-size: 2.2em;
@@ -49,4 +51,14 @@
     font-size: 1.8em;
     text-align: center;
     padding: 1rem 0;
+}
+
+.h2 {
+    color: $color_second;
+    font-weight:bold ;
+}
+
+.h3 {
+    color: $color_second;
+    font-weight:bold ;
 }
